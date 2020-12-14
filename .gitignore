@@ -12,4 +12,4 @@ database/*.sqlite
 
 yarn.lock
 
-
+packege-lock.json
