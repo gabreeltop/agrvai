@@ -50,8 +50,8 @@ module.exports = {
   | npm i --save mysql
   |
   */
-  mysql: {
-    client: 'mysql',
+  pg: {
+    client: 'pg',
     connection: {
       host: Env.get('DB_HOST', DATABASE_URL.hostname),
       port: Env.get('DB_PORT', DATABASE_URL.port),
@@ -72,8 +72,8 @@ module.exports = {
   | npm i --save pg
   |
   */
-  pg: {
-    client: 'pg',
+  mysql: {
+    client: 'mysql',
     connection: {
       host: Env.get('DB_HOST', 'localhost'),
       port: Env.get('DB_PORT', ''),
